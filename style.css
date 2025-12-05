@@ -103,25 +103,10 @@ body {
   line-height: 100%;
   letter-spacing: 3.64px;
   text-decoration: none;
-
-  border-right: 56px solid rgba(213, 150, 108, 1);
-}
-
-.btn_div {
-  width: 260px;
-  height: 72px;
-  position: relative;
   position: absolute;
   top: 60%;
   left: 50%;
-}
-
-.arrow {
-  position: absolute;
-  width: 8px;
-  height: 24px;
-  top: 23px;
-  left: 228px;
+  border-right: 56px solid rgba(213, 150, 108, 1);
 }
 
 .fb_div {
@@ -363,7 +348,7 @@ footer {
     gap: 20px;
   }
 
-  .btn_div {
+  .btn {
     top: 56%;
     left: 45%;
   }
@@ -414,10 +399,6 @@ footer {
 }
 
 @media (max-width: 870px) {
-  body {
-    overflow-x: hidden;
-  }
-
   .main_box {
     width: 100%;
     max-width: 100%;
@@ -472,7 +453,7 @@ footer {
     padding: 20px;
   }
 
-  .btn_div {
+  .btn {
     position: static;
     height: 60px;
     font-size: 18px;
