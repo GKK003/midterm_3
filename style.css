@@ -90,7 +90,7 @@ body {
 }
 
 .btn {
-  width: 204px;
+  width: 260px;
   height: 72px;
   background-color: #151515;
   display: flex;
@@ -103,10 +103,50 @@ body {
   line-height: 100%;
   letter-spacing: 3.64px;
   text-decoration: none;
+
+  border-right: 56px solid rgba(213, 150, 108, 1);
+}
+
+.btn_div {
+  width: 260px;
+  height: 72px;
+  position: relative;
   position: absolute;
   top: 60%;
   left: 50%;
-  border-right: 50px solid rgba(213, 150, 108, 1);
+}
+
+.arrow {
+  position: absolute;
+  width: 8px;
+  height: 24px;
+  top: 23px;
+  left: 228px;
+}
+
+.fb_div {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.fb_div:hover {
+  background-color: #d5966c;
+}
+
+.fb_image {
+  width: 13px;
+  height: 18px;
+  position: absolute;
+  top: 2px;
+  left: 4.8px;
+}
+
+.btn:hover {
+  background-color: #d5966c;
+  border-right: 56px solid #151515;
 }
 
 .flex {
@@ -262,6 +302,9 @@ footer {
 }
 
 @media (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
   .black_div {
     display: none;
   }

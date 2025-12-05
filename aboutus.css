@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Serif+Display:ital@0;1&family=Nabla&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.img {
+  width: 100%;
+  max-width: 2000px;
+}
+.main_div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn_div {
+  width: 264px;
+  height: 72px;
+  position: relative;
+  position: absolute;
+  top: 0%;
+  left: 11%;
+}
+
+.arrow {
+  position: absolute;
+  width: 8px;
+  height: 24px;
+  top: 23px;
+  left: 20px;
+}
+
+.btn {
+  width: 264px;
+  height: 72px;
+  background-color: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 3.64px;
+  text-decoration: none;
+  border-left: 56px solid rgba(213, 150, 108, 1);
+}
+
+.btn:hover {
+  background-color: #d5966c;
+  border-left: 56px solid #151515;
+}
+
+.second_line {
+  background-color: #151515;
+  width: 100%;
+  max-width: 2000px;
+  height: 548px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.last_line {
+  width: 100%;
+  max-width: 2000px;
+  height: 244px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d5966c;
+}
+
+.first_heading {
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+.column_txt {
+  width: 100%;
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+}
+
+.location_txt {
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 900;
+  color: #d5966c;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+.first_p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.second_p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.third_p {
+  width: 100%;
+  max-width: 430px;
+  height: 100%;
+  max-height: 84px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: #151515;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.fb_div {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  background-color: #151515;
+  border-radius: 2px;
+}
+
+.fb_div:hover {
+  background-color: white;
+}
+
+.fb_image {
+  width: 13px;
+  height: 18px;
+  position: absolute;
+  top: 2px;
+  left: 4.8px;
+}
+
+@media (max-width: 1000px) {
+  .first_heading {
+    font-size: 55px;
+    line-height: 50px;
+  }
+
+  .first_p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .second_p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .third_p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .img {
+    height: 600px;
+  }
+
+  .btn {
+    left: 3%;
+  }
+}
+
+@media (max-width: 750px) {
+  .second_line {
+    flex-direction: column;
+    align-items: self-start;
+    padding: 15px;
+  }
+
+  .second_line {
+    flex-direction: column;
+    align-items: self-start;
+    padding: 15px;
+  }
+
+  .last_line {
+    flex-direction: column;
+    align-items: self-start;
+    padding: 15px;
+    gap: 5px;
+  }
+
+  .third_p {
+    margin-bottom: 21px;
+  }
+
+  .img {
+    height: 550px;
+  }
+
+  .btn {
+    left: 0px;
+  }
+}
