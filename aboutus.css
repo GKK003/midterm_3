@@ -193,7 +193,7 @@ body {
     height: 600px;
   }
 
-  .btn {
+  .btn_div {
     left: 3%;
   }
 }
@@ -226,7 +226,7 @@ body {
     height: 550px;
   }
 
-  .btn {
+  .btn_div {
     left: 0px;
   }
 }

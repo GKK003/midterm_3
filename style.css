@@ -363,7 +363,7 @@ footer {
     gap: 20px;
   }
 
-  .btn {
+  .btn_div {
     top: 56%;
     left: 45%;
   }
@@ -468,7 +468,7 @@ footer {
     padding: 20px;
   }
 
-  .btn {
+  .btn_div {
     position: static;
     height: 60px;
     font-size: 18px;
