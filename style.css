@@ -414,6 +414,10 @@ footer {
 }
 
 @media (max-width: 870px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .main_box {
     width: 100%;
     max-width: 100%;
